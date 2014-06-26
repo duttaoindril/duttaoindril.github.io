@@ -1,0 +1,2 @@
+curl -H 'Accept: application/json' -H 'Content-Type: application/json' \
+-u APIKEY0123456789:xxx -d '{"request": {"scimage": "monkey343cactus"}}'
