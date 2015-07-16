@@ -1,4 +1,5 @@
-duttaoindril.github.io
-======================
+##duttaoindril.github.io
+---
+My Personal Website
 
-My Website
+My Resume: http://odutta.me/resume.pdf
