@@ -5,9 +5,8 @@ var time = 4000;
 var percent = 0;
 
 function initialize() {
-    var title = getUrlParameter('sub');
-    if(title == "true")
-        $("#title").html("Thank you for reaching out!").delay(5000).html("Hi! I'm Oindril Dutta!");
+    if(getUrlParameter('sub') == "true")
+        $("#title").html("Thank you for reaching out!").delay("5000").fadeToggle("fast", function() {$("#title").html("Hi! I'm Oindril Dutta!");}).fadeIn("fast");
     $(".button-collapse").sideNav();
     if($(document).width() > 992 && $(window).width() > 992 )
         $('ul.tabs').tabs('select_tab', 'home');
