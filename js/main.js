@@ -5,8 +5,11 @@ var time = 4000;
 var percent = 0;
 
 function initialize() {
+
+
     $(".button-collapse").sideNav();
-    $('ul.tabs').tabs('select_tab', 'home');
+    if($(document).width() > 992 && $(window).width() > 992 )
+        $('ul.tabs').tabs('select_tab', 'home');
     $('#projects ul.tabs').tabs('select_tab', 'project1');
     $('.parallax').parallax();
     if($(window).width() > 1200) {
@@ -76,8 +79,14 @@ function initialize() {
     });
 }
 
+function tabz(tab) {
+    if($(document).width() > 992 && $(window).width() > 992 )
+        $('ul.tabs').tabs('select_tab',tab);
+}
+
 function resumeToast() {
-    $('ul.tabs').tabs('select_tab', 'resume');
+    if($(document).width() > 992 && $(window).width() > 992 )
+        $('ul.tabs').tabs('select_tab', 'resume');
 }
 
 function slidenum(i) {
@@ -100,6 +109,6 @@ function fabShow(show) {
 
 $(document).ready(function(){
     initialize();
-}), $(document).resize(function() {
-    initialize();
+}), $(window).resize(function() {
+    location.reload();
 });

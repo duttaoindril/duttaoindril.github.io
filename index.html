@@ -61,23 +61,14 @@
     <header class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
-                <a href="#home" class="brand-logo center" onclick='$("ul.tabs").tabs("select_tab", "home"); $("html, body").animate({ scrollTop: 0}, "fast");'>Oindril Dutta</a>
+                <a href="#home" class="brand-logo center" onclick='tabz("home"); $("html, body").animate({ scrollTop: 0}, "fast");'>Oindril Dutta</a>
                 <!--<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="side-nav" id="mobile-demo">
-                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'home'); fabShow(true);"><a href="#home">Me</a></li>
-                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'projects'); fabShow(false);"><a href="#projects">Projects</a></li>
-                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'resume'); fabShow(false);"><a href="#resume">Resume</a></li>
-                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'contact'); fabShow(false);"><a href="#contact">Contact</a></li>
+                    <li class="ttop" onclick="tabz('home'); fabShow(true);"><a href="#home">Me</a></li>
+                    <li class="ttop" onclick="tabz('projects'); fabShow(false);"><a href="#projects">Projects</a></li>
+                    <li class="ttop" onclick="tabz('resume'); fabShow(false);"><a href="#resume">Resume</a></li>
+                    <li class="ttop" onclick="tabz('contact'); fabShow(false);"><a href="#contact">Contact</a></li>
                 </ul>-->
-            </div>
-            <div id="tabz" class="col s12 z-depth-2"><!-- mobilehide">-->
-                <ul class="tabs">
-                    <li class="ttop tab col s3 waves-effect waves-orange"><a href="#home" class="active">Me</a></li>
-                    <li class="ttop tab col s3 waves-effect waves-orange">
-                        <a onclick="$('#projects ul.tabs').tabs('select_tab', 'project1');" href="#projects">Work</a></li>
-                    <li class="ttop tab col s3 waves-effect waves-orange"><a href="#resume">CV</a></li>
-                    <li class="ttop tab col s3 waves-effect waves-orange"><a href="#contact">Reach</a></li>
-                </ul>
             </div>
         </nav>
     </header>
@@ -888,9 +879,27 @@
             <div class="chip"><img src="img/contact/treehouse.png"><a href="http://teamtreehouse.com/duttaoindril" target="_blank">Treehouse</a></div><br>
             <h3>Reach Out</h3>
             <form action="http://formspree.io/duttaoindril@gmail.com" method="POST" class="col s10 m6 l4 offset-s1 offset-m3 offset-l4">
-                <input type="text" name="name">
-                <input type="email" name="_replyto">
-                <input type="submit" value="Send">
+                <div class="input-field">
+                    <i class="material-icons prefix">perm_identity</i>
+                    <input placeholder="Your Name" id="first_name" type="text" name="name">
+                    <label for="first_name">Name</label>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">email</i>
+                    <input placeholder="Your@Email.com" id="email" type="email"  name="_replyto">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">comment</i>
+                    <textarea name="message" placeholder="Your message" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Message</label>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action" value="Send">
+                    Submit<i class="material-icons right">send</i>
+                </button>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_subject" value="Odutta.me Contact"/>
+                <input type="hidden" name="_next" value="//index.html?sub=true" />
             </form>
         </div>
     </main>
@@ -904,10 +913,10 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Navigation</h5>
                     <ul id="footnav">
-                        <li><a onclick="$('ul.tabs').tabs('select_tab','home');" class="ttop white-text" href="#home">Me</a></li>
-                        <li><a onclick="$('ul.tabs').tabs('select_tab','projects');" class="ttop white-text" href="#projects">Projects</a></li>
-                        <li><a onclick="$('ul.tabs').tabs('select_tab','resume');" class="ttop white-text" href="#resume">Resume</a></li>
-                        <li><a onclick="$('ul.tabs').tabs('select_tab','contact');" class="ttop white-text" href="#contact">Contact</a></li>
+                        <li><a onclick="tabz(home');" class="ttop white-text" href="#home">Me</a></li>
+                        <li><a onclick="tabz(projects');" class="ttop white-text" href="#projects">Projects</a></li>
+                        <li><a onclick="tabz(resume');" class="ttop white-text" href="#resume">Resume</a></li>
+                        <li><a onclick="tabz(contact');" class="ttop white-text" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -919,6 +928,10 @@
         </div>
     </footer>
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        if($(document).width() > 992)
+            $("nav").append("<div id='tabz' class='col s12 z-depth-2 mobilehide'><ul class='tabs'><li class='ttop tab col s3 waves-effect waves-orange'><a href='#home' class='active'>Me</a></li><li class='ttop tab col s3 waves-effect waves-orange'><a onclick=$('#projects ul.tabs').tabs('select_tab', 'project1');' href='#projects'>Projects</a></li><li class='ttop tab col s3 waves-effect waves-orange'><a href='#resume'>Resume</a></li><li class='ttop tab col s3 waves-effect waves-orange'><a href='#contact'>Contact</a></li></ul></div>");
+    </script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/typer.js"></script>
     <script type="text/javascript" src="js/main.js"></script>

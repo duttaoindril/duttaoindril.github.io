@@ -143,6 +143,14 @@ footer.page-footer {
     overflow: hidden;
 }
 
+form {
+    margin-bottom: 35px;
+}
+
+.input-field label {
+    left: 0rem;
+}
+
 /*
 Also, I think the large card things showing the diff languages/platforms are excessively large
 maybe shrink them somewhat and make it more compact?
