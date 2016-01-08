@@ -4,23 +4,10 @@ var slide = true;
 var time = 4000;
 var percent = 0;
 
-function getUrlParameter(sParam) {
-    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] === sParam)
-            return sParameterName[1] === undefined ? true : sParameterName[1];
-    }
-    return "";
-};
-
 function initialize() {
     var title = getUrlParameter('sub');
     if(title == "true")
-        $("#title").html("Thank you for reaching out!");
+        $("#title").html("Thank you for reaching out!").delay(5000).html("Hi! I'm Oindril Dutta!");
     $(".button-collapse").sideNav();
     if($(document).width() > 992 && $(window).width() > 992 )
         $('ul.tabs').tabs('select_tab', 'home');
@@ -116,6 +103,19 @@ function gotoProj(i) {
     $('#projects ul.tabs').tabs('select_tab', 'project'+i);
     slidenum(i);
 }
+
+function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] === sParam)
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+    }
+    return "";
+};
 
 $(document).ready(function(){
     initialize();
