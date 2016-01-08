@@ -151,6 +151,26 @@ form, #contactlinks {
     left: 0rem;
 }
 
+.btn, .btn-large {
+    background-color: #ff9800;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #ffa726;
+}
+
+.chip {
+    color: #ef6c00;
+}
+
+#contactlinks .chip {
+    background-color: #333;
+}
+
+#contactlinks .chip a {
+    color: #ffb74d;
+}
+
 /*
 Also, I think the large card things showing the diff languages/platforms are excessively large
 maybe shrink them somewhat and make it more compact?
