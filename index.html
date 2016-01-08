@@ -65,7 +65,7 @@
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="side-nav" id="mobile-demo">
                     <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'home'); fabShow(true);"><a href="#home">Me</a></li>
-                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'projects'); gotoProj(2); fabShow(false);"><a href="#projects">Projects</a></li>
+                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'projects'); fabShow(false);"><a href="#projects">Projects</a></li>
                     <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'resume'); fabShow(false);"><a href="#resume">Resume</a></li>
                     <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'contact'); fabShow(false);"><a href="#contact">Contact</a></li>
                 </ul>
@@ -73,7 +73,8 @@
             <div id="tabz" class="col s12 z-depth-2 mobilehide">
                 <ul class="tabs">
                     <li class="ttop tab col s3 waves-effect waves-orange"><a href="#home" class="active">Me</a></li>
-                    <li class="ttop tab col s3 waves-effect waves-orange"><a onclick="gotoProj(2)" href="#projects">Projects</a></li>
+                    <li class="ttop tab col s3 waves-effect waves-orange">
+                        <a onclick="$('#projects ul.tabs').tabs('select_tab', 'project1');" href="#projects">Projects</a></li>
                     <li class="ttop tab col s3 waves-effect waves-orange"><a href="#resume">Resume</a></li>
                     <li class="ttop tab col s3 waves-effect waves-orange"><a href="#contact">Contact</a></li>
                 </ul>
@@ -861,13 +862,30 @@
         <div id="resume" class="col s12">
             <br class="mobilehide"><br class="mobilehide">
             <h1>Resume</h1>
-            <div class="chip"><img src="img/icons/pdf.png"><a href="resume.pdf" target="_blank">My Resume</a></div>
+            <div class="chip"><img src="img/contact/pdf.png"><a href="resume.pdf" target="_blank">My Resume</a></div>
             <br><br>
             <embed class="col s12 m12 l10 offset-l1" src="resume.pdf" height="1100px" type='application/pdf' style="margin-bottom: 20px;">
         </div>
         <div id="contact" class="col s12">
             <br class="mobilehide"><br class="mobilehide">
             <h1>Contact</h1>
+            <p class="col s10 offset-s1 flow-text">
+                I am currently looking for developer work, and I am available for internships and other work over the summer. If you have any questions or offers, please don't hesitate to contact me!
+                <br><br>
+                Please use any medium to contact me; email works best.
+                <br>
+                Otherwise, calling or facebook message is good too.
+                <br><br>
+            </p>
+            <h3>Contact Details</h3>
+            <div class="chip"><img src="img/contact/email.png"><a href="mailto:duttaoindril@gmail.com" target="_blank">duttaoindril@gmail.com</a></div><br>
+            <div class="chip"><img src="img/contact/phone.png"><a href="tel:(408)-658-8961" target="_blank">(408)-658-8961</a></div><br>
+            <div class="chip"><img src="img/contact/github.png"><a href="https://github.com/duttaoindril" target="_blank">Github</a></div><br>
+            <div class="chip"><img src="img/contact/linkedin.png"><a href="http://linkedin.com/in/oindrildutta" target="_blank">LinkedIn</a></div><br>
+            <div class="chip"><img src="img/contact/facebook.png"><a href="https://www.facebook.com/duttaoindril" target="_blank">Facebook</a></div><br>
+            <div class="chip"><img src="img/contact/twitter.png"><a href="http://twitter.com/intent/tweet?screen_name=DuttaOindril" target="_blank">@duttaoindril</a></div><br>
+            <div class="chip"><img src="img/contact/gplus.png"><a href="https://plus.google.com/u/0/+OindrilDutta/posts" target="_blank">Google+</a></div><br>
+            <div class="chip"><img src="img/contact/treehouse.png"><a href="http://teamtreehouse.com/duttaoindril" target="_blank">Treehouse</a></div><br>
         </div>
     </main>
     <footer class="page-footer mobilehide">
