@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) {
+    .parallax-container {
+        height: 300px;
+    }
+    #footnav li, .skillz img, #hbbs li {
+        opacity: 1;
+    }
+    .mobileshow {
+        display: initial;
+    }
+    #resume embed {
+        height: 1050px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #me {
+        width: 65%;
+    }
+    .mobilehide {
+        display: none;
+    }
+    .mobileshow {
+        display: initial;
+    }
+    #resume embed {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #me {
+        width: 90%;
+    }
+    #resume embed {
+        height: 400px;
+    }
+}

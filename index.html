@@ -1,472 +1,902 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset = "utf-8" name = "viewport" content = "width=device-width, initial-scale=1, user-scalable=no">
     <title>Oindril Dutta | Developer</title>
-    <link rel="shortcut icon" href="img/header-me/myIcon.ico" type="image/x-icon">
-    <link rel="icon" href="img/header-me/myIcon.ico" type="image/x-icon">
-    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel = "shortcut icon" href = "img/me.ico" type = "image/x-icon" title = "The Drill">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="css/responsive.css" media="screen,projection">
 </head>
 <body>
-    <div class="iframeHolder">
-        <button class="toggle" id="backbutton">&larrhk;Back</button>
-        <iframe name="myIframe" class="iframe"></iframe>
-    </div>
-    <header id="header">
-        <ul>
-            <li>
-                <a href="#welcome" id="backtotoplink">
-                    <div class="navhover"><img class="headericon invert" src="img/header-me/logo.png">
-                        <div class="outer">
-                            <div class="middle">
-                                <div class="inner">
-                                    <p class="headerpop" id="backtotop">HOME</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#portfolio">
-                    <div class="navhover"><img class="headericon" src="img/header-me/profile.png">
-                        <div class="outer">
-                            <div class="middle">
-                                <div class="inner">
-                                    <p class="headerPop">ABOUT</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#projects">
-                    <div class="navhover"><img class="headericon" src="img/header-me/code.png">
-                        <div class="outer">
-                            <div class="middle">
-                                <div class="inner">
-                                    <p class="headerPop">PROJECTS</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#resume">
-                    <div class="navhover"><img class="headericon" src="img/header-me/resume.png">
-                        <div class="outer">
-                            <div class="middle">
-                                <div class="inner">
-                                    <p class="headerPop">R&Eacute;SUM&Eacute;</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#contact">
-                    <div class="navhover"><img class="headericon" src="img/header-me/contact.png">
-                        <div class="outer">
-                            <div class="middle">
-                                <div class="inner">
-                                    <p class="headerPop">CONTACT</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </header>
-    <div class="container welcome" id="welcome">
-        <div class="outerN">
-            <div class="middleN">
-                <div class="innerN">
-                    <h1 id="fancytext" data-typer-targets="Oindril Dutta.,Oindril.,Dutta.,Leader.,Student.,Developer.,Hacker.,Designer.,Innovator.,OD.">OD.</h1>
+    <div id="loader" class="center-align valign-wrapper">
+        <div class="preloader-wrapper big active valign center-align cent">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+            </div>
+            <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+            </div>
+            <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+            </div>
+            <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container" id="portfolio">
-        <div class="innercontainer">
-            <h1>About</h1>
-            <h2 id="firstporth2">Hello!</h2>
-            <div id="portfolio-img"><img src="img/general/OindrilD2.png">
-            </div>
-            <h2 id="secondporth2">I'm Oindril Dutta:</h2>
-            <p>
-            I am a college student, developer &amp; hackathon enthusiast in the Bay Area, and I am very passionate about Computer Science. I have participated in many hackathons, and I've won four of them so far, and then I even hosted my own, Teen Hackathon. I was the officer and webmaster of multiple tech clubs at my high school, and I have moderate experience in web development professionally with paying clients. I am currently looking for more professional work to engage myself with.
-                <br/>
-                <br/>I have worked with many platforms, including:
-                <br/>
-                <br/>
-            </p>
-            <div id="contact-info-holder">
-                <ul class="contact-info">
-                <li><img src="../img/languages/HTML.png">
-                    <p>HTML</p>
-                </li>
-                <li><img src="../img/languages/CSS.png">
-                    <p>CSS</p>
-                </li>
-                <li><img src="../img/languages/JS.png">
-                    <p>JavaScript</p>
-                </li>
-                <li><img src="../img/languages/JQuery.png">
-                    <p>JQuery</p>
-                </li>
-                <li><img src="../img/languages/Java.png">
-                    <p>Ruby</p>
-                </li>
-                <li><img src="../img/languages/Android.png">
-                    <p>Rails</p>
-                </li>
-                <li><img src="../img/languages/Java.png">
-                    <p>PHP</p>
-                </li>
-                <li><img src="../img/languages/Android.png">
-                    <p>MySQL</p>
-                </li>
-            </ul>
-            <ul class="contact-info">
-                <li><img src="../img/languages/Java.png">
-                    <p>Java</p>
-                </li>
-                <li><img src="../img/languages/Android.png">
-                    <p>Android</p>
-                </li>
-                <li><img src="../img/languages/HTML.png">
-                    <p>Latex</p>
-                </li>
-                <li><img src="../img/languages/Java.png">
-                    <p>Ajax</p>
-                </li>
-                <li><img src="../img/languages/CSS.png">
-                    <p>JSON</p>
-                </li>
-                <li><img src="../img/languages/C++.png">
-                    <p>C++</p>
-                </li>
-                <li><img src="../img/languages/Python.png">
-                    <p>Python</p>
-                </li>
-                <li><img src="../img/languages/Python.png">
-                    <p>.Net</p>
-                </li>
-            </ul>
-            </div>
-            <p>
-                <br/>You can <a href="#contact">contact me here.</a>
-                <br/>
-                <br/>
-            </p>
-        </div>
+    <div id="fab" class="ttop fixed-action-btn tooltipped" data-position="left" data-delay="10" data-tooltip="Back to Top" style="bottom: 15px; right: 15px;">
+        <a class="btn-floating btn-large waves-effect waves-light orange lighten-1 z-depth-1">
+            <i class="large material-icons">navigation</i>
+        </a>
     </div>
-    <div class="container carousel" id="projects">
-        <div class="innercontainer">
-            <h1>Projects</h1>
-            <ul class="panes">
-                <li>
-                    <div class="desc">
-                        <div class="outerN">
-                            <div class="middleN">
-                                <div class="innerN">
-                                    <a href="https://sleepy-sands-6336.herokuapp.com/" target="myIframe" class="toggle"><img class="fat1" src="img/general/waffle.png" alt="Waffle">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="desc">
-                        <div class="outerN fatN">
-                            <div class="middleN fatN">
-                                <div class="innerN fatN">
-                                    <p>Waffle is a location-based social app with which the user can share photos of his or her surroundings, and will pop up on the newsfeed of others in the area. Waffle ties the photos to that location for a period of 24 hours and displays in a real-time photo feed to all of your friends present in the area.</p>
-                                    <a href="https://sleepy-sands-6336.herokuapp.com/" target="myIframe" class="toggle">
-                                        <div>Check it out!</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="desc">
-                        <div class="outerN">
-                            <div class="middleN">
-                                <div class="innerN">
-                                    <a href="https://shantulshi.github.io/" target="myIframe" class="toggle"><img src="img/general/coderaicer.png" alt="CoderAIcer">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="desc">
-                        <div class="outerN">
-                            <div class="middleN">
-                                <div class="innerN">
-                                    <p>CoderAIcer is a webapp where the user can write AI to race a car through a track, dealing with turns, walls, the road, and other cars, etc. This gets competitive when people put their AI online in a match, so that multiple user-programmed AIs race against each other, and the best AI, the best programmer wins.</p>
-                                    <a href="https://shantulshi.github.io/" target="myIframe" class="toggle">
-                                        <div>Check it out!</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="desc">
-                        <div class="outerN">
-                            <div class="middleN">
-                                <div class="innerN">
-                                    <a href="http://trouve.paperplane.io" target="_blank"><img class="fat2" src="img/general/trouve.png" alt="Trouv&eacute;">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="desc">
-                        <div class="outerN">
-                            <div class="middleN">
-                                <div class="innerN">
-                                    <p>Trouv&eacute; is a webapp to share the location of anything, and find anything. Let's say you're hosting a garage sale or you found some great parking. Simply add that location to the master map on Trouv&eacute;, and anybody can access it to find that parking/garage sale, and you can use it to find anything else too!</p>
-                                    <a href="http://trouve.paperplane.io" target="_blank">
-                                        <div>Check it out!</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="desc">
-                        <div class="outerN fatN">
-                            <div class="middleN fatN">
-                                <div class="innerN fatN">
-                                    <a href="http://72.52.99.120/" target="_blank" class="toggle"><img class="fat2" src="img/general/seekr.png" alt="Seekr">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="desc">
-                        <div class="outerN">
-                            <div class="middleN">
-                                <div class="innerN">
-                                    <p>Seekr is a webapp that pulls in 100,000 jobs from the Dice API, each with a physical location, and displays those jobs on a map; the jobs can be searched for by location and skill, and can be filtered for you top skills. It uses the Dice job skills to generate analytics for the user in a beautiful graphical format.</p>
-                                    <a href="http://72.52.99.120/" target="_blank" class="toggle">
-                                        <div>Check it out!</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <div class="progress-bar"></div>
-        </div>
-    </div>
-    <div class="container" id="resume">
-        <div class="innercontainer">
-            <h1>R&eacute;sum&eacute;</h1>
-            <div id="master">
-                <h2>Oindril Dutta</h2>
-                <ul class="contacting">
-                    <li class="pdf"><a href="resume.pdf">Resume</a></li>
-                    <li class="phone"><a href="tel:(408)-658-8961">(408)-658-8961</a></li>
-                    <li class="mail"><a href="mailto:duttaoindril@gmail.com" target="_blank">duttaoindril@gmail.com</a></li>
+    <header class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#home" class="brand-logo center" onclick='$("ul.tabs").tabs("select_tab", "home"); $("html, body").animate({ scrollTop: 0}, "fast");'>Oindril Dutta</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="side-nav" id="mobile-demo">
+                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'home'); fabShow(true);"><a href="#home">Me</a></li>
+                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'projects'); gotoProj(2); fabShow(false);"><a href="#projects">Projects</a></li>
+                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'resume'); fabShow(false);"><a href="#resume">Resume</a></li>
+                    <li class="ttop" onclick="$('ul.tabs').tabs('select_tab', 'contact'); fabShow(false);"><a href="#contact">Contact</a></li>
                 </ul>
-                <div id="part1">
-                    <h2>Objective</h2>
-                    <p>I am a college student, a self-motivated, dedicated &amp; passionate developer, looking for an internship opportunity in Computer Science. I offer technical skill in programming along with youthfulness, determination, and Full-Stack expertise in mobile and web development, using Java, Android, HTML, CSS, JS, Ruby, Rails, PHP, Python, C++, MySQL &amp; more.</p>
-                    <h2>Experience</h2>
-                    <h2>Awards</h2>
-                    <h4>Winner of HeroHack, 1st place and Myo sponsor prize winner with Accesssible Messenger</h4>
-                    <h4>Winner of BeyondHacks, 3rd place with Trouv&eacute;</h4>
-                    <h4>Winner of HackSummit with Seekr</h4>
-                    <h2>Volunteering</h2>
-                    <h3>Study Buddy Society</h3>
-                    <p>Volunteer Tutor at Study Buddy Society for Math &amp; Computer Science. Helped fellow students with their difficulties in mathematics and computer science.</p>
-                    <h3>Santa Clara Library Tech</h3>
-                    <p>Volunteer at the Library Tech Toolbar, communicated with library patrons about the new eBooks service to inform and facilitate shift to new eBooks on multiple platforms.</p>
-                    <h3>Hackathons</h3>
-                    <p>Regular attendee of hackathons, love the development focused environment there.</p>
-                    <h2>Education</h2>
-                    <h3>Monta Vista High School</h3>
-                    <p>Class of 2015
-                        <br/>Java Class
-                        <br/>AP Computer Science Class
-                        <br/>AP Calculus &amp; AP Physics
-                        <br/>Officer of MV Java Club
-                        <br/>Officer of MV Mobile Dev Club</p>
-                    <h3>Foothill College</h3>
-                    <p>C++ Summer Course</p>
-                    <br/>
+            </div>
+            <div id="tabz" class="col s12 z-depth-2 mobilehide">
+                <ul class="tabs">
+                    <li class="ttop tab col s3 waves-effect waves-orange"><a href="#home" class="active">Me</a></li>
+                    <li class="ttop tab col s3 waves-effect waves-orange"><a onclick="gotoProj(2)" href="#projects">Projects</a></li>
+                    <li class="ttop tab col s3 waves-effect waves-orange"><a href="#resume">Resume</a></li>
+                    <li class="ttop tab col s3 waves-effect waves-orange"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="row center-align">
+        <div id="home" class="col s12 center-align">
+            <br class="mobilehide"><br class="mobilehide">
+            <h1>Hi! I'm Oindril Dutta!</h1>
+            <div class="center-align">
+                <img src="img/me.png" id="me" alt="Oindril Dutta" class="waves-effect waves-orange circle responsive-img z-depth-3 center-align">
+            </div>
+            <br class="mobilehide">
+            <br class="mobilehide">
+            <br class="mobilehide">
+            <div class="col s12 parallax-container z-depth-2 valign-wrapper center-align mobilehide">
+                <h1 class="valign center-align fancyhead" id="fancytext" data-typer-targets="Enthusiast,Entreprenuer,Engineer,Leader,Student,Developer,Hacker,Designer,Innovator">OD</h1>
+                <div class="parallax">
+                    <img src="img/background.png">
                 </div>
-                <div id="part2">
-                    <h2>Projects</h2>
-                    <br/>
-                    <h3><a href="https://sleepy-sands-6336.herokuapp.com/" target="_blank">Waffle</a></h3>
-                    <br/>
-                    <p>Waffle is a location-based social application with which the user can share photos of his or her surroundings with others in the area.</p>
-                    <h3><a href="https://shantulshi.github.io/" target="_blank">CoderAIcer</a></h3>
-                    <br/>
-                    <p>CoderAIcer is an Application where the user can write competitive AI to race a car through a track to learn programming languages like Javascript.</p>
-                    <h3><a href="http://finder.paperplane.io/" target="_blank">Trouv&eacute;</a></h3>
-                    <br/>
-                    <p>Trouv&eacute;is a crowd sourced application where anybody shares locations of anything, so anybody can find anything from garage sales to parking.</p>
-                    <h3><a href="http://72.52.99.120/" target="_blank">Seekr</a></h3>
-                    <br/>
-                    <p>Seekr is an application that pulls in a 100,000 jobs from Dice, and displays those jobs on a map;the jobs can be searched for by location and skill.</p>
-                    <h3><a href="http://veteransproject.paperplane.io" target="_blank">Veterans History Project</a></h3>
-                    <br/>
-                    <p>This website is for a school project;it uses a database created by me to present the interviews conducted by our class.</p>
-                    <h3><a href="http://mvgamedev.paperplane.io/" target="_blank">Mobile Game Dev Club</a></h3>
-                    <br/>
-                    <p>This static website is for a school club, the Monta Vista Mobile Game Development Club.</p>
-                    <h3><a href="http://www.mvjavaclub.com/" target="_blank">Java Club</a></h3>
-                    <br/>
-                    <p>This static website is for a school club, the Monta Vista Java Club.</p>
-                    <h2>Skills</h2>
-                    <p>HTML 5, CSS 3</p>
-                    <p>Javascript, JQuery</p>
-                    <p>JSON</p>
-                    <p>(Twitter) Bootstrap</p>
-                    <p>Zurb Foundation</p>
-                    <p>Firebase</p>
-                    <p>ReactJS</p>
-                    <p>Android, Java</p>
-                    <p>Python</p>
-                    <p>C++</p>
-                    <h2>References</h2>
-                    <h3>Shane O' Sullivan</h3>
-                    <p>Software Engineer at Facebook - He was my mentor at BeyondHacks and helped me greatly in making Trouv&eacute;.</p>
+            </div>
+            <p class="col s10 offset-s1 flow-text">
+                <br>
+                I'm a college student currently studying CS at SJSU, developer, and hackathon enthusiast; in fact I've participated in many hackathons, and I've won five of them so far and even hosted my own: <a href="teenhacks.paperplane.io" target="_blank">Teen Hackathon</a>. I was the officer and webmaster of multiple tech clubs at my high school, and I made the website for the <a href="sjsucsclub.paperplane.io" target="_blank">SJSU CS Club</a>.
+                <br><br>
+                I have <a href="resume.pdf" target="_blank">moderate experience</a> in professional development with paying clients.
+                <br>
+                I am currently looking for more professional work to engage myself with.
+                <br><br>
+            </p>
+            <div class="parallax-container z-depth-2 col s12 mobilehide valign-wrapper">
+                <h1 class="valign center-align white-text fancyhead">Skills</h1>
+                <div class="parallax">
+                    <img src="img/background4.png">
+                </div>
+            </div>
+            <hr class="divider col s10 offset-s1 mobileshow">
+            <h2 class="col s12 mobileshow">Skills</h2>
+            <p class="col s10 offset-s1 flow-text">
+                Click a skill to see which project it's used in.
+            </p>
+            <div class="container">
+                <div class="skillz col s4 m2 l2 offset-s1 offset-m1 offset-l1">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(2) href=#>LearnMotion</a>', 5000); Materialize.toast('<a onclick=gotoProj(6) href=#>ViewMe</a>', 5000); Materialize.toast('<a onclick=gotoProj(9) href=#>Slapp</a>', 5000); Materialize.toast('<a onclick=gotoProj(12) href=#>Up</a>', 5000); Materialize.toast('<a onclick=gotoProj(14) href=#>Waffle</a>', 5000); Materialize.toast('<a onclick=gotoProj(15) href=#>FunFacts</a>', 5000); Materialize.toast('<a onclick=gotoProj(16) href=#>iStory</a>', 5000); Materialize.toast('<a onclick=gotoProj(17) href=#>GolfTrakr</a>', 5000); Materialize.toast('<a onclick=gotoProj(18) href=#>Stormy</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg1" src="img/icons/java.png" class="circle responsive-img">
+                            <p class="flow-text">Java</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(9) href=#>Slapp</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg2" src="img/icons/python.png" class="circle responsive-img">
+                            <p class="flow-text">Python</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(1) href=#>Gupta Chem</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg3" src="img/icons/ruby.png" class="circle responsive-img">
+                            <p class="flow-text">Ruby</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(5) href=#>Seekr</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg4" src="img/icons/php.png" class="circle responsive-img">
+                            <p class="flow-text">PHP</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(5) href=#>Seekr</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg5" src="img/icons/sql.png" class="circle responsive-img">
+                            <p class="flow-text">MySQL</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(7) href=#>SJSU CS Club Website</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg24" src="img/icons/parse.png" class="circle responsive-img">
+                            <p class="flow-text">Parse</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(2) href=#>LearnMotion</a>', 5000); Materialize.toast('<a onclick=gotoProj(9) href=#>Slapp</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg6" src="img/icons/cpp.png" class="circle responsive-img">
+                            <p class="flow-text">C++</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(2) href=#>LearnMotion</a>', 5000); Materialize.toast('<a onclick=gotoProj(4) href=#>Trouvé</a>', 5000); Materialize.toast('<a onclick=gotoProj(6) href=#>ViewMe</a>', 5000); Materialize.toast('<a onclick=gotoProj(9) href=#>Slapp</a>', 5000); Materialize.toast('<a onclick=gotoProj(4) href=#>Trouvé</a>', 5000); Materialize.toast('<a onclick=gotoProj(14) href=#>Waffle</a>', 5000); ">
+                        <span>
+                            <img id="skillimg13" src="img/icons/firebase.png" class="circle responsive-img">
+                            <p>Firebase</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                </div>
+                <div class="skillz col s4 m2 l2 offset-s2 offset-m2 offset-l2">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(2) href=#>LearnMotion</a>', 5000); Materialize.toast('<a onclick=gotoProj(6) href=#>ViewMe</a>', 5000); Materialize.toast('<a onclick=gotoProj(9) href=#>Slapp</a>', 5000); Materialize.toast('<a onclick=gotoProj(12) href=#>Up</a>', 5000); Materialize.toast('<a onclick=gotoProj(14) href=#>Waffle</a>', 5000); Materialize.toast('<a onclick=gotoProj(15) href=#>FunFacts</a>', 5000); Materialize.toast('<a onclick=gotoProj(16) href=#>iStory</a>', 5000); Materialize.toast('<a onclick=gotoProj(17) href=#>GolfTrakr</a>', 5000); Materialize.toast('<a onclick=gotoProj(18) href=#>Stormy</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg8" src="img/icons/android.png" class="circle responsive-img" onclick="Materialize.toast('<a onclick=gotoProj(2) href=#>LearnMotion</a>', 5000); ">
+                            <p class="flow-text">Android</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(2) href=#>LearnMotion</a>', 5000); Materialize.toast('<a onclick=gotoProj(7) href=#>SJSU CS Club Website</a>', 5000); Materialize.toast('<a onclick=gotoProj(14) href=#>Waffle</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg9" src="img/icons/nodejs.png" class="circle responsive-img">
+                            <p class="flow-text">Node</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(1) href=#>Gupta Chem</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg10" src="img/icons/ror.png" class="circle responsive-img">
+                            <p class="flow-text">Rails</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a href=http://github.com/duttaoindril target=_blank>My Github</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg12" src="img/icons/git.png" class="circle responsive-img">
+                            <p class="flow-text">Git</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(1) href=#>Gupta Chem</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg22" src="img/icons/heroku.png" class="circle responsive-img">
+                            <p class="flow-text">Heroku</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(4) href=#>Trouvé</a>', 5000); Materialize.toast('<a onclick=gotoProj(7) href=#>SJSU CS Club Website</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg14" src="img/icons/reactjs.png" class="circle responsive-img">
+                            <p class="flow-text">React</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a href=resume.pdf target=_blank>My Resume</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg7" src="img/icons/latex.png" class="circle responsive-img">
+                            <p class="flow-text">LaTeX</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(12) href=#>Up</a>', 5000); Materialize.toast('<a onclick=gotoProj(14) href=#>Waffle</a>', 5000);">
+                        <span>
+                            <img id="skillimg11" src="img/icons/phonegap.png" class="circle responsive-img">
+                            <p>Phonegap</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                </div>
+                <div class="skillz col s4 m2 l2 offset-s4 offset-m2 offset-l2">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(1) href=#>Basically Everything</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg15" src="img/icons/html.png" class="circle responsive-img">
+                            <p class="flow-text">HTML</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(1) href=#>Basically Everything</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg16" src="img/icons/css.png" class="circle responsive-img">
+                            <p class="flow-text">CSS</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(1) href=#>Basically Everything</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg17" src="img/icons/js.png" class="circle responsive-img">
+                            <p class="flow-text">JS</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(1) href=#>Basically Everything</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg18" src="img/icons/jquery.png" class="circle responsive-img">
+                            <p class="flow-text">JQuery</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(3) href=#>MyoMessenger</a>', 5000); Materialize.toast('<a onclick=gotoProj(13) href=#>CoderAIcer</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg19" src="img/icons/angular.png" class="circle responsive-img">
+                            <p class="flow-text">Angular</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(5) href=#>Seekr</a>', 5000); Materialize.toast('<a onclick=gotoProj(15) href=#>Fun Facts</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg20" src="img/icons/ajax.png" class="circle responsive-img">
+                            <p class="flow-text">AJAX</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('<a onclick=gotoProj(7) href=#>SJSU CS Club Website</a>', 5000);">
+                        <span class="flow-text">
+                            <img id="skillimg23" src="img/icons/gulp.png" class="circle responsive-img">
+                            <p class="flow-text">Gulp.js</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide">
+                    <div class="card-panel waves-effect waves-orange z-depth-1 hoverable" onclick="Materialize.toast('This website', 5000); Materialize.toast('<a onclick=gotoProj(2) href=#>LearnMotion</a>', 5000); Materialize.toast('<a onclick=gotoProj(7) href=#>SJSU CS Club Website</a>', 5000); ">
+                        <span>
+                            <img id="skillimg21" src="img/icons/materialize.png" class="circle responsive-img">
+                            <p>Materialize</p>
+                        </span>
+                    </div>
+                    <br class="mobilehide"><br class="mobilehide"><br class="mobilehide">
+                </div>
+            </div>
+            <div class="parallax-container z-depth-2 col s12 valign-wrapper center-align mobilehide">
+                <h1 class="valign center-align white-text fancyhead">Hobbies</h1>
+                <div class="parallax">
+                    <img src="img/background2.png">
+                </div>
+            </div>
+            <br><br>
+            <hr class="divider col s10 offset-s1 mobileshow">
+            <h2 class="col s12 mobileshow">Hobbies</h2>
+            <p class="col s10 offset-s1 flow-text">
+                <br class="mobilehide">
+                Click a hobby to learn more.
+                <br>
+            </p>
+            <ul id="hbbs" class="col s10 m8 l6 offset-l3 offset-m2 offset-s1 collapsible popout" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header flow-text">Programming</div>
+                    <div class="collapsible-body"><p class="flow-text">
+                        The difference between having programming as a hobby and as a career is that as a career, I would usually be doing it for somebody else, for the sake of making money. Doing it as a hobby lets me enjoy programming for the sake of programming, lets me pursue my own hobbies, and it's a great way to learn more.
+                    </p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header flow-text">Hackathons</div>
+                    <div class="collapsible-body"><p class="flow-text">
+                        Hackathons are a great place to do programming as a hobby, with a little motivation and hope for winning a prize fueling me through the night. More importantly however, I believe hackathons are a great place to meet new people, learn new languages and tools altogether, and practice delivering a polished product while working with a team under high pressure and little time conditions, yet facing no consequences, making it easier to learn from.
+                    </p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header flow-text">Photography</div>
+                    <div class="collapsible-body"><p class="flow-text">
+                        I enjoy all the math, science, and logic of my hobbies, but sometimes it's nice to do something different, something artistic. I enjoy photography as it's a great way to capture the world and it's beauty, my favorite type being landscape, scenery, or background shots.
+                    </p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header flow-text">Dancing</div>
+                    <div class="collapsible-body"><p class="flow-text">
+                        I enjoy all the math, science, and logic of my hobbies, but sometimes it's nice to do something different, something artistic, and while I only had to take this for the general education requirements, I learned to enjoy it just like I do ice skating and archery, as it's taught me much of the same thing: Simply keep trying, trying hard, and you will be able to do what you want to.
+                    </p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header flow-text">Reading</div>
+                    <div class="collapsible-body"><p class="flow-text">
+                        I wish I had more time to read. I love reading, and I dare say I enjoy it more than other forms of entertainment. it's quite enticing to read for me; fictional books require you to have a level of imagination to fully appreciate and enjoy. They're a great medium to learn from and a healthy form of entertainment.
+                    </p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header flow-text">Basketball</div>
+                    <div class="collapsible-body"><p class="flow-text">
+                        Most of my hobbies, with the exception of social dancing and archery, are quite lonesome activities. Basketball is a fun hobby for me to enjoy with my friends, when we're all around to enjoy ourselves, and it's a great way to practice working together on a common goal.
+                    </p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header flow-text">Archery</div>
+                    <div class="collapsible-body"><p class="flow-text">
+                        I enjoy all the math, science, and logic of my hobbies, but sometimes it's nice to do something different, something artistic, and while I only had to take this for the general education requirements, I learned to enjoy it just like I do ice skating and dancing, as it's taught me much of the same thing: Simply keep trying, trying hard, and you will be able to do what you want to.
+                    </p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header flow-text">Ice Skating</div>
+                    <div class="collapsible-body"><p class="flow-text">
+                        I enjoy all the math, science, and logic of my hobbies, but sometimes it's nice to do something different, something artistic, and while I only had to take this for the general education requirements, I learned to enjoy it just like I do dancing and archery, as it's taught me much of the same thing: Simply keep trying, trying hard, and you will be able to do what you want to.
+                    </p></div>
+                </li>
+            </ul>
+        </div>
+        <div id="projects" class="col s12">
+            <br class="mobilehide"><br class="mobilehide">
+            <h1>Projects</h1>
+            <div class="row">
+                <div id="project1" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/guptachem.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Gupta Chem</span>
+                            <p><a href="http://www.guptachem.com/" target="_blank">www.guptachem.com</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Gupta Chem</span>
+                            <p><a href="http://www.guptachem.com/" target="_blank">www.guptachem.com</a></p>
+                            <p class="flow-text">
+                                Developed from scratch a Rails e-commerce site to advertise/sell SAT II Chem classes.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/ruby.png">Ruby</div>
+                            <div class="chip"><img src="img/icons/ror.png">Rails</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/heroku.png">Heroku</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project2" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/learnmotion.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Learn Motion</span>
+                            <p><a href="http://odutta.me/myoSport/" target="_blank">odutta.me/myoSport</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Learn Motion</span>
+                            <p><a href="http://odutta.me/myoSport/" target="_blank">odutta.me/myoSport</a></p>
+                            <p class="flow-text">
+                                App to record, replay, and learn motion using Myo, Pebble, and Machine Learning.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                            <div class="chip"><img src="img/icons/cpp.png">C++</div>
+                            <div class="chip"><img src="img/icons/nodejs.png">Node.js</div>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/materialize.png">Materialize</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project3" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/myomessenger.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Myo Messenger</span>
+                            <p><a href="http://odutta.me/MyoMessenger/" target="_blank">odutta.me/MyoMessenger</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Myo Messenger</span>
+                            <p><a href="http://odutta.me/MyoMessenger/" target="_blank">odutta.me/MyoMessenger</a></p>
+                            <p class="flow-text">
+                                IM app to let the speech-impaired send translated Sign Language gestures using Myo.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/firebase.png">Firebase</div>
+                            <div class="chip"><img src="img/icons/angular.png">Angular</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project4" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/trouve.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Trouvé</span>
+                            <p><a href="http://trouve.paperplane.io/" target="_blank">trouve.paperplane.io</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Trouvé</span>
+                            <p><a href="http://trouve.paperplane.io/" target="_blank">trouve.paperplane.io</a></p>
+                            <p class="flow-text">
+                                Crowd-sourced location finder app to pin anything and let others find everything.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/reactjs.png">ReactJS</div>
+                            <div class="chip"><img src="img/icons/firebase.png">Firebase</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project5" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/seekr.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Seekr</span>
+                            <p><a href="http://seekr.paperplane.io/" target="_blank">seekr.paperplane.io</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Seekr</span>
+                            <p><a href="http://seekr.paperplane.io/" target="_blank">seekr.paperplane.io</a></p>
+                            <p class="flow-text">
+                                100,000 searchable jobs displayed on a map, filterable by location, skill, &amp; user stats.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/ajax.png">AJAX</div>
+                            <div class="chip"><img src="img/icons/php.png">PHP</div>
+                            <div class="chip"><img src="img/icons/sql.png">MySQL</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project6" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/viewme.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">ViewMe</span>
+                            <p><a href="http://odutta.me/ViewMe/" target="_blank">odutta.me/ViewMe</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">ViewMe</span>
+                            <p><a href="http://odutta.me/ViewMe/" target="_blank">odutta.me/ViewMe</a></p>
+                            <p class="flow-text">
+                                Control any 3D object with any pc/phone camera using gestures with your torso.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                            <div class="chip"><img src="img/icons/firebase.png">Firebase</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project7" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/sjsu.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">SJSU Computer Science Club Website</span>
+                            <p><a href="http://sjsucsclub.com" target="_blank">Prsjsucsclub.com</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">SJSU Computer Science Club Website</span>
+                            <p><a href="http://sjsucsclub.com" target="_blank">Prsjsucsclub.com</a></p>
+                            <p class="flow-text">
+                                SJSU CS Club portal to publish events, news and important information for viewing.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/parse.png">Parse</div>
+                            <div class="chip"><img src="img/icons/nodejs.png">Node.js</div>
+                            <div class="chip"><img src="img/icons/reactjs.png">ReactJS</div>
+                            <div class="chip"><img src="img/icons/gulp.png">GulpJS</div>
+                            <div class="chip"><img src="img/icons/materialize.png">Materialize</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project8" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/th.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Teen Hackathon</span>
+                            <p><a href="http://teenhacks.paperplane.io/" target="_blank">teenhacks.paperplane.io</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Teen Hackathon</span>
+                            <p><a href="http://teenhacks.paperplane.io/" target="_blank">teenhacks.paperplane.io</a></p>
+                            <p class="flow-text">
+                                Hosted &amp; led my hackathon to teach coding &amp; close the gender/diversity gap in tech.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project9" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/slapp.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Slapp</span>
+                            <p><a href="http://odutta.me/Slapp/" target="_blank">odutta.me/Slapp</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Slapp</span>
+                            <p><a href="http://odutta.me/Slapp/" target="_blank">odutta.me/Slapp</a></p>
+                            <p class="flow-text">
+                                App for smartwatches/myos/phones to detect slapps &amp; exchange contact + otherinfo.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                            <div class="chip"><img src="img/icons/firebase.png">Firebase</div>
+                            <div class="chip"><img src="img/icons/python.png">Python</div>
+                            <div class="chip"><img src="img/icons/cpp.png">C++</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project10" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/mixchat.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">MixChat</span>
+                            <p><a href="http://odutta.me/MixChat/" target="_blank">odutta.me/MixChat</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">MixChat</span>
+                            <p><a href="http://odutta.me/MixChat/" target="_blank">odutta.me/MixChat</a></p>
+                            <p class="flow-text">
+                                Universal IM app to talk freely between multiple IMs like FB, gmail, kik, skype, etc.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project11" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/happyshirts.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Happy Shirts</span>
+                            <p><a href="http://happyshirts.paperplane.io/" target="_blank">happyshirts.paperplane.io</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Happy Shirts</span>
+                            <p><a href="http://happyshirts.paperplane.io/" target="_blank">happyshirts.paperplane.io</a></p>
+                            <p class="flow-text">
+                                Preview a t-shirt on yourself with any pc/phone camera with just an image of the shirt.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/cpp.png">C++</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project12" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/up.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Up</span>
+                            <p><a href="http://odutta.me/UPITTY/" target="_blank">odutta.me/UPITTY</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Up</span>
+                            <p><a href="http://odutta.me/UPITTY/" target="_blank">odutta.me/UPITTY</a></p>
+                            <p class="flow-text">
+                                Mobile app using openCV to wake up users that are dozing off when driving/working.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                            <div class="chip"><img src="img/icons/phonegap.png">Phonegap</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project13" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/coderaicer.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">CoderAIcer</span>
+                            <p><a href="http://shantulshi.github.io/CodeRAIcer/" target="_blank">shantulshi.github.io/CodeRAIcer</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">CoderAIcer</span>
+                            <p><a href="http://shantulshi.github.io/CodeRAIcer/" target="_blank">shantulshi.github.io/CodeRAIcer</a></p>
+                            <p class="flow-text">
+                                Educational app teaching users to write racing AIs used to compete with other users.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/angular.png">Angular</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project14" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/waffle.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Waffle</span>
+                            <p><a href="http://sleepy-sands-6336.herokuapp.com/" target="_blank">sleepy-sands-6336.herokuapp.com</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Waffle</span>
+                            <p><a href="http://sleepy-sands-6336.herokuapp.com/" target="_blank">sleepy-sands-6336.herokuapp.com</a></p>
+                            <p class="flow-text">
+                                Location based image sharing app that lets users post &amp; view images anonymously.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/html.png">HTML5</div>
+                            <div class="chip"><img src="img/icons/css.png">CSS3</div>
+                            <div class="chip"><img src="img/icons/js.png">JS</div>
+                            <div class="chip"><img src="img/icons/jquery.png">JQuery</div>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                            <div class="chip"><img src="img/icons/nodejs.png">Node.js</div>
+                            <div class="chip"><img src="img/icons/firebase.png">Firebase</div>
+                            <div class="chip"><img src="img/icons/phonegap.png">Phonegap</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project15" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/funfacts.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Fun Facts</span>
+                            <p><a href="http://github.com/duttaoindril/FunFacts" target="_blank">github.com/duttaoindril/FunFacts</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Fun Facts</span>
+                            <p><a href="http://github.com/duttaoindril/FunFacts" target="_blank">github.com/duttaoindril/FunFacts</a></p>
+                            <p class="flow-text">
+                                A simple android app that gets a random fact from multiple online sources.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                            <div class="chip"><img src="img/icons/ajax.png">AJAX</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project16" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/interactivestory.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">iStory</span>
+                            <p><a href="http://github.com/duttaoindril/SlideStoryBeginnings" target="_blank">github.com/duttaoindril/SlideStoryBeginnings</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">iStory</span>
+                            <p><a href="http://github.com/duttaoindril/SlideStoryBeginnings" target="_blank">github.com/duttaoindril/SlideStoryBeginnings</a></p>
+                            <p class="flow-text">
+                                A simple android app that's a prototype of a new way to enjoy stories and media.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project17" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/golftrakr.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">GolfTrakr</span>
+                            <p><a href="http://github.com/duttaoindril/GolfTrakr" target="_blank">github.com/duttaoindril/GolfTrakr</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">GolfTrakr</span>
+                            <p><a href="http://github.com/duttaoindril/GolfTrakr" target="_blank">github.com/duttaoindril/GolfTrakr</a></p>
+                            <p class="flow-text">
+                                A simple android app that's allows users to keep track of their golf score per hole.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project18" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/stormy.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Stormy</span>
+                            <p><a href="http://github.com/duttaoindril/Stormy" target="_blank">github.com/duttaoindril/Stormy</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">Stormy</span>
+                            <p><a href="http://github.com/duttaoindril/Stormy" target="_blank">github.com/duttaoindril/Stormy</a></p>
+                            <p class="flow-text">
+                                A simple android weather app made with OkHTTP, Forecast.io, and SQLite.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                            <div class="chip"><img src="img/icons/sql.png">SQL</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project19" class="col s12 m8 l4 offset-m2 offset-l4 pause">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="projectimg activator" src="img/project/treeblog.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">TreeBlog</span>
+                            <p><a href="http://github.com/duttaoindril/TreeBlog" target="_blank">github.com/duttaoindril/TreeBlog</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="activator card-title grey-text text-darken-4">TreeBlog</span>
+                            <p><a href="http://github.com/duttaoindril/TreeBlog" target="_blank">github.com/duttaoindril/TreeBlog</a></p>
+                            <p class="flow-text">
+                                A simple android app that displays all the Treehouse Blog Posts in an easily navigable fashion.
+                            </p>
+                            <p>Made with <b class="pink">&#x2764;</b> and:</p>
+                            <div class="chip"><img src="img/icons/java.png">Java</div>
+                            <div class="chip"><img src="img/icons/android.png">Android</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12">
+                    <ul id="projecttabz" class="tabs pause">
+                        <li class="tab col s3 active"><a onclick="slidenum(1)" href="#project1">1</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(2)" href="#project2">2</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(3)" href="#project3">3</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(4)" href="#project4">4</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(5)" href="#project5">5</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(6)" href="#project6">6</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(7)" href="#project7">7</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(8)" href="#project8">8</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(9)" href="#project9">9</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(10)" href="#project10">10</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(11)" href="#project11">11</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(12)" href="#project12">12</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(13)" href="#project13">13</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(14)" href="#project14">14</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(15)" href="#project15">15</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(16)" href="#project16">16</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(17)" href="#project17">17</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(18)" href="#project18">18</a></li>
+                        <li class="tab col s3"><a onclick="slidenum(19)" href="#project19">19</a></li>
+                    </ul>
+                    <!-- <div class="indicatorbar"></div> -->
+                    <div id="datbartho" class="progress">
+                        <div class="determinate" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <!--<br class="mobilehide"><br class="mobilehide">-->
+        </div>
+        <div id="resume" class="col s12">
+            <br class="mobilehide"><br class="mobilehide">
+            <h1>Resume</h1>
+            <div class="chip"><img src="img/icons/pdf.png"><a href="resume.pdf" target="_blank">My Resume</a></div>
+            <br><br>
+            <embed class="col s12 m12 l10 offset-l1" src="resume.pdf" height="1100px" type='application/pdf' style="margin-bottom: 20px;">
+        </div>
+        <div id="contact" class="col s12">
+            <br class="mobilehide"><br class="mobilehide">
+            <h1>Contact</h1>
+        </div>
+    </main>
+    <footer class="page-footer mobilehide">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Oindril Dutta</h5>
+                    <p class="white-text">This is my personal website.<br>I'm looking for work, so if you have anything, shoot me an email!<br>I'd appreciate it!</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Navigation</h5>
+                    <ul id="footnav">
+                        <li><a onclick="$('ul.tabs').tabs('select_tab','home');" class="ttop white-text" href="#home">Me</a></li>
+                        <li><a onclick="$('ul.tabs').tabs('select_tab','projects');" class="ttop white-text" href="#projects">Projects</a></li>
+                        <li><a onclick="$('ul.tabs').tabs('select_tab','resume');" class="ttop white-text" href="#resume">Resume</a></li>
+                        <li><a onclick="$('ul.tabs').tabs('select_tab','contact');" class="ttop white-text" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container" id="contact">
-        <div class="innercontainer">
-            <h1>Contact</h1>
-            <br/>
-            <br/>
-            <h2>General Information</h2>
-            <p>I am currently looking for developer work, and I am available for internships and other work over the summer. If you have any questions or offers, please don't hesitate to contact me!
-                <br/>
-                <br/>Please use any medium to contact me;email works best. Otherwise, phone or facebook is the best way to reach me.</p>
-            <br/>
-            <br/>
-            <h2>Contact Details</h2>
-            <ul class="contacting">
-                <li class="phone"><a href="tel:(408)-658-8961">(408)-658-8961</a>
-                </li>
-                <li class="mail"><a href="mailto:duttaoindril@gmail.com" target="_blank">duttaoindril@gmail.com</a>
-                </li>
-                <li class="linkedin"><a href="http://linkedin.com/in/oindrildutta" target="_blank">LinkedIn</a>
-                </li>
-                <li class="github"><a href="https://github.com/duttaoindril" target="_blank">GitHub</a>
-                </li>
-                <li class="facebook"><a href="https://www.facebook.com/duttaoindril" target="_blank">Facebook</a>
-                </li>
-                <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=DuttaOindril" target="_blank">@DuttaOindril</a>
-                </li>
-                <li class="google"><a href="https://plus.google.com/u/0/+OindrilDutta/posts" target="_blank">Google+</a>
-                </li>
-                <li class="treehouse"><a href="http://teamtreehouse.com/duttaoindril" target="_blank">Treehouse</a>
-                </li>
-                <li class="upwork"><a href="https://www.upwork.com/users/_~01309e93bcbceae01b" target="_blank">UpWork</a>
-                </li>
-                <li class="tumblr"><a href="http://duttaoindril.tumblr.com/" target="_blank">Tumblr</a>
-                </li>
-            </ul>
-            <br/>
-            <br/>
+        <div class="footer-copyright">
+            <div class="container">
+                ©2015 Oindril Dutta. All Rights Reserved. Made with <b class="pink">&#x2764;</b> by Oindril Dutta.
+            </div>
         </div>
-    </div>
-    <div class="container blog">
-        <div class="innercontainer">
-            <h1>Blog</h1>
-            <a href="https://medium.com/@DuttaOindril" target="_blank"><img src="img/general/blog.png">
-                <h2>My Blog</h2>
-            </a>
-            <script async src="https://static.medium.com/embed.js"></script><a class="m-profile" data-width="100%" data-border="false" href="https://medium.com/@DuttaOindril">Oindril Dutta</a>
-        </div>
-    </div>
-    <div class="container response" id="daform">
-        <div class="innercontainer">
-            <h1>Reach Out</h1>
-            <form id="form" action="//formspree.io/duttaoindril@gmail.com" method="POST">
-                <input type="hidden" name="_next" value="http://od.paperplane.io/?thanks=true" />
-                <input type="hidden" name="_subject" value="Personal Website reach out!" />
-                <input type="text" name="_gotcha" style="display:none" />
-                <div class="pm-step">
-                    <p>What is your name?</p>
-                    <input id="blur" type="text" name="name" placeholder="Your Name" autocomplete="off" />
-                </div>
-                <div class="pm-step">
-                    <p>Could you fill in your e-mail adress please?</p>
-                    <input type="email" name="_replyto" placeholder="Your Email" autocomplete="off" />
-                </div>
-                <div class="pm-step">
-                    <p>Is there something you would like to say?
-                        <br/><span class="muted"></span>
-                    </p>
-                    <textarea name="message" placeholder="Your message" autocomplete="off"></textarea>
-                </div>
-                <p class="progressbar"><span class="bar"></span>
-                </p>
-                <p class="muted">
-                    <input type="button" id="navigation" value="Next step" />
-                </p>
-            </form>
-            <p id="copyright">&copy;2014 Oindril Dutta.
-                <br/>All Rights Reserved.</p>
-        </div>
-    </div>
-    <footer id="footer">
-        <ul>
-            <a href="https://plus.google.com/u/0/+OindrilDutta/posts" target="_blank">
-                <li><img class="footericon" src="img/footer-contact/GooglePlus.png" alt="Google+ Link">
-                </li>
-            </a>
-            <a href="https://twitter.com/DuttaOindril" target="_blank">
-                <li><img class="footericon" src="img/footer-contact/Twitter.png" alt="Twitter Link">
-                </li>
-            </a>
-            <a href="https://www.facebook.com/duttaoindril" target="_blank">
-                <li><img class="footericon" src="img/footer-contact/Facebook.png" alt="Facebook Link">
-                </li>
-            </a>
-            <a href="http://linkedin.com/in/oindrildutta" target="_blank">
-                <li><img class="footericon" src="img/footer-contact/Linkedin.png" alt="Linkedin Link">
-                </li>
-            </a>
-            <a href="https://www.upwork.com/users/_~01309e93bcbceae01b" target="_blank">
-                <li><img class="footericon" src="img/footer-contact/Up.png" alt="UpWork Link">
-                </li>
-            </a>
-            <a href="https://github.com/duttaoindril" target="_blank">
-                <li><img class="footericon" src="img/footer-contact/GitHub.png" alt="GitHub Link">
-                </li>
-            </a>
-            <a href="https://medium.com/@DuttaOindril" target="_blank">
-                <li><img class="footericon" src="img/footer-contact/blog.png" alt="Medium Link">
-                </li>
-            </a>
-        </ul>
     </footer>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/typer.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
-
 </html>
