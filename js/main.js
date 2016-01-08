@@ -95,7 +95,10 @@ function slidenum(i) {
 }
 
 function gotoProj(i) {
-    $('ul.tabs').tabs('select_tab', 'projects');
+    if($(document).width() > 992 && $(window).width() > 992 )
+        $('ul.tabs').tabs('select_tab', 'projects');
+    else
+
     $('#projects ul.tabs').tabs('select_tab', 'project'+i);
     slidenum(i);
 }
@@ -110,5 +113,5 @@ function fabShow(show) {
 $(document).ready(function(){
     initialize();
 }), $(window).resize(function() {
-    location.reload();
+    initialize();
 });
