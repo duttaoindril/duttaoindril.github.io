@@ -103,13 +103,6 @@ function gotoProj(i) {
     slidenum(i);
 }
 
-function fabShow(show) {
-    if(show)
-        $("#fab").show();
-    else
-        $("#fab").hide();
-}
-
 $(document).ready(function(){
     initialize();
 }), $(window).resize(function() {
