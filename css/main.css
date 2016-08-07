@@ -37,14 +37,16 @@
 
 #me {
     width: 35%;
-    border: 3px solid #26c6da;
+    border: 3px solid #ffa726;
+    /*#26c6da;*/
 }
 
 .row .col {
     padding: 0;
 }
 
-nav, .tabs .indicator {
+nav,
+.tabs .indicator {
     background-color: #ffa726;
 }
 
@@ -89,7 +91,9 @@ footer.page-footer {
     z-index: 1000;
 }
 
-#footnav li, .skillz img, #hbbs li {
+#footnav li,
+.skillz img,
+#hbbs li {
     opacity: 0;
 }
 
@@ -133,7 +137,7 @@ footer.page-footer {
 }
 
 .indicatorbar {
-    margin: 1px 0 0 0 ;
+    margin: 1px 0 0 0;
     background-color: #ffa726;
     position: relative;
     height: 5px;
@@ -143,7 +147,8 @@ footer.page-footer {
     overflow: hidden;
 }
 
-form, #contactlinks {
+form,
+#contactlinks {
     margin-bottom: 35px;
 }
 
@@ -151,11 +156,13 @@ form, #contactlinks {
     left: 0rem;
 }
 
-.btn, .btn-large {
+.btn,
+.btn-large {
     background-color: #ff9800;
 }
 
-.btn:hover, .btn-large:hover {
+.btn:hover,
+.btn-large:hover {
     background-color: #ffa726;
 }
 
@@ -169,6 +176,10 @@ form, #contactlinks {
 
 #contactlinks .chip a {
     color: #ffb74d;
+}
+
+#plugin {
+    height: 105%;
 }
 
 /*

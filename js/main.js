@@ -38,6 +38,9 @@ function initialize() {
             {selector: '#skillimg22', offset: 100, callback: 'Materialize.fadeInImage("#skillimg22")' },
             {selector: '#skillimg23', offset: 100, callback: 'Materialize.fadeInImage("#skillimg23")' },
             {selector: '#skillimg24', offset: 100, callback: 'Materialize.fadeInImage("#skillimg24")' },
+            {selector: '#skillimg25', offset: 100, callback: 'Materialize.fadeInImage("#skillimg25")' },
+            {selector: '#skillimg26', offset: 100, callback: 'Materialize.fadeInImage("#skillimg26")' },
+            {selector: '#skillimg27', offset: 100, callback: 'Materialize.fadeInImage("#skillimg27")' },
             {selector: '#footnav', offset: 50, callback: 'Materialize.showStaggeredList("#footnav")' },
             {selector: '#hbbs', offset: 50, callback: 'Materialize.showStaggeredList("#hbbs")' }
         ];
