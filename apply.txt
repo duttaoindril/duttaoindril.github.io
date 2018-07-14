@@ -1,0 +1,172 @@
+Oindril Dutta | 3.204 | 2.93
+
+--
+
+Developed and maintained existing GitHub repository codebases and servers of internal tools used by the DB2 department.
+Fleshed them out and updated them to work with newer technologies and frameworks.
+A notable example of such an internal tool I worked on is a chatbot that queries the Retain API, and can show or modify data as handled by that API.
+
+--
+
+Summer Engineering Fellow/Intern at Aeris; I worked on data analysis, data stream decoding, and app creation in multiple platforms such as R, Shiny, Polymer, and Android. I built multiple internal tools to do the data analysis and decoding, culminating in a Polymer app that ingests real time IOT data from car sensors and then displays their analytics. This app was then used in a live demo at an investor showcase.
+
+--
+
+Developed from scratch a Rails e-commerce site to advertise/sell SAT II Chem classes.
+
+--
+
+Strong Full Stack Developer dipping toes into AI/ML/Data Handling
+
+http://odutta.me
+
+http://linkedin.com/in/oindrildutta
+
+http://github.com/duttaoindril
+
+--
+
+Bachelor of Science in Computer Science
+
+--
+
+I'm pretty good and polished at web development, front-end and backend (servers/nosql databases), and that's because I enjoy programming and I want to show off my logic and ideas. Web Dev has been the easiest way to get that across. On that note, what I actually enjoy doing is the stuff in the back, such as data handling/processing, all the logic of how to interpret that data, etc. I really want to get better at traditional SQL databases (I'm very proficient in NoSQL databases) and I want to really dive deep into ML, especially after having made some of my own projects with ML.
+
+--
+
+Two of my most challenging projects were semester long coding projects that really let me dive deep and focus on code and implementation and learning and working together in a team.
+
+The first project was an online store for groceries, and it was a fully functional website client built with Polymer and a Node.JS server back-end; I focused heavily on the server-client implementation and the front-end using the framework.
+
+The second project was much more profound, I made an app that can use any camera on any device to tell you how well you're doing any (three) yoga pose. I used a machine learning server running Tensorflow and other code to return confidences for webcam input from the client. Me and my team made an entire pipeline that allowed us to simply put in a few YouTube URLs and timestamps, and a server would extract all the frames from that video label them, run a program called Openpose on them that gets skeleton key points of a human body, and then we did a bit of math to convert those pixel key points to standardized angles, magnitudes, etc. All that is then fed into a simple Neural network, trained on the extracted and standardized data of around a few thousand frames, all doing 4 different things: Warrior II, Tree, Triangle, or no pose. The model was trained and then ran on the back-end Node.JS server, and when anybody opened the React.JS client, it would start sending frames to the server for running Openpose and the model prediction and then returned confidences of how well each pose was being done on the client.
+
+I'm very proud of both of these projects; I worked my best to show something that is truly polished, and working on them pushed me to not just learn, implement and push my limits on something that I've never done before on my own, but to also share this experience with others and teach them how to do some things and then get taught a few things, eventually all working together to make awesome ideas come to life.
+
+--
+
+These are the projects I describe here because they're the ones I've spent a lot of time on, in a team. I have many other side projects that I've only worked on for a couple days to a few weeks, from hackathons and my own ideas, and you can find out about them on my resume and website: http://odutta.me/resume.pdf & http://odutta.me
+
+--
+
+My dream since I started programming in high school has been to simply code to make the world a better place, to bring and spread smiles to the world. OpenDoor really aligns with that vision, and I would be so happy to work towards goals that truly benefit the world.
+
+--
+
+I may not have all the skills I need to do this job, but I want to say that I love to learn and I learn quickly and I learn well; I would be very excited to learn any technology/stack/language/tool on the job and do something awesome with it; it's one of the things I'm most eager to do as a computer scientist, programmer, and developer.
+
+--
+
+Companies Already Applied To
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NVIDIA
+Visa
+Applied Materials
+Essential Products
+Palantir Technologies
+Yelp
+ARRIS Group
+Affirm
+Axcient
+Ciena
+Egnyte
+Ellie Mae
+IXL Learning
+Nutanix
+Opendoor
+Proofpoint
+Quip
+Salesforce
+Shutterfly
+Splunk
+The Climate Corp
+Veeva Systems
+VMWare
+Everlaw
+
+Companies to Apply To
+~~~~~~~~~~~~~~~~~~~~~
+Apple
+Microsoft
+Amazon
+Facebook
+Workday
+Cisco
+ServiceNow
+Twitter
+Google
+Zillow
+Redfin
+Fortinet - Should I apply here?
+Intel Corporation - Should I apply here? DevOps Engineer for Computing Hub; HPC Storage Analytics and Support Engineer
+Mozilla Foundation - Should I apply here? Android Mobile Engineer (New College Grad)
+
+Places to Apply From
+~~~~~~~~~~~~~~~~~~~~
+Hired.com
+Dice.com
+Glassdoor.com
+LinkedIn.com
+Monster.com
+Angellist.com
+
+Avoid
+~~~~~
+PWC
+IBM
+Microsoft
+Deloitte
+Accenture
+Satyam Mahendra
+Cognizant Tech Solutions [CTS]
+Tata Consulting Service [TCS]
+Infosys
+Saama
+Cybercoders
+Robert Half Tech
+
+--
+
+Positions that want what Babi wants:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+https://jobs.lever.co/opendoor/28f6a3d0-7074-433b-bbf3-ff382c2296f9
+https://jobs.lever.co/opendoor/3cc9a9cd-2b67-4061-99ab-c459d8a87b61
+https://www.egnyte.com/jobs/jobs.html#software-engineer-infra-development
+https://jobs.jobvite.com/shutterflyinc/job/oYzg7fwE
+https://jobs.jobvite.com/shutterflyinc/job/og0Q7fwX
+https://jobs.lever.co/elliemae/4c2782a9-9b59-4bd0-9c29-500484e5e8dd
+https://careers.vmware.com/job/palo-alto/openstack-kubernetes-engineering/1567/7142959
+
+--
+
+Watching + Downloading Anime:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+twist.moe
+masterani.me
+animeheaven.eu
+www6.9anime.is
+rabb.it
+gogoanime.in
+animepahe.com
+animeheaven.eu
+animeseries.co
+Watchcartoononline.io
+Streamanime.tv
+anilinkz.to
+
+Downloading Anime:
+~~~~~~~~~~~~~~~~~~
+kametsu.com
+animencodes.com
+reddit.com/r/megalinks
+anime.thehylia.com/downloads/browse/all 
+animekaizoku.com
+project-gxs.com
+animeworldbd.com
+animeout.xyz
+hi10anime.com
+nyaa.si
+animetosho.org
+horriblesubs.info
+coalgirls.wakku.to
+
+bakabt.me ???
