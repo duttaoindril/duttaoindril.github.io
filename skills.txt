@@ -1,0 +1,248 @@
+Skills:
+-------
+
+Core:
+---
+Java
+Python
+Ruby
+C++
+-
+Scala
+Perl
+Objective C
+Shell Scripting
+PowerShell
+
+
+Machine Learning:
+---
+Python
+R
+-
+Tableau - Visualization Tool
+Looker - Visualization Tool
+TIBCO
+AI
+Random forest
+data mining
+Data Analytics
+information retrieval - NLP
+ARIMA
+SVR
+machine learning
+Matlab
+LabVIEW
+Data Science
+Big Data Analytics
+
+
+Front End Web Dev:
+---
+HTML5
+CSS3
+ES6
+JavaScript
+Node.js
+Express.js
+HTML
+REST
+JSON
+React.JS
+Redux
+Ajax
+Polymer
+Responsive Design
+Material Design
+Web APIs
+WebSockets
+JQuery
+Sass + Mixins
+LESS
+Bootstrap
+Mocking Frameworks
+Wireframing Tools
+Local Storage
+Flask
+Django
+Apache Tomcat
+XML
+XUL - XML User Interface Language 
+-
+Spring - Java Framework
+Spring Boot - Quickstart Spring Apps
+Typescript.js
+Webpack
+Redux-Saga
+Prototype JS Library - JS Testing Library
+Jasmine/Karma - Node/Browser testing
+Protractor - Angular Testing
+Jersey - JAX-RS Wrapper
+JAX-RS - Java API for RESTful Web Services
+JAXB - Java Architecture for XML Binding
+JMS - java message service
+Angular.js
+Backbone.js
+Handlebars.js
+Underscore.js
+Require.js
+GSAP - JS HTML5 Animations - GreenSock Animation Platform
+RSS/Atom Web Feeds
+Ruby on Rails
+Struts - Java Framework
+LAMP - PHP Framework
+Laravel - PHP Framework
+Symfony - PHP Framework
+CakePHP - PHP Framework
+Zend - PHP Framework
+SiteMinder
+Jetty - Java Servlet Engine and Http Server
+GlassFish - Java application server project
+JSP - Java Framework
+Drupal
+SiteMinder SSO
+CMSs
+Sitecore
+Swagger
+XPath - XML Query Language
+RESTful API Modeling Language (RAML)
+WADL - Web Application Description Language
+WSDL - Web Services Description Language
+
+
+Operating Systems:
+---
+-
+Cloud Computing
+
+
+Systems/Architechture/Infrastructure: 
+---
+Node.js
+Flask
+Django
+Java
+Jenkins
+Apache Tomcat
+C#
+-
+Junit
+travis
+Kubernetes
+Docker - build, ship, and run distributed applications
+IOC/DI - DI is a subset of IoC; Inversion of Control - Dependency Injection
+CircleCI - Continuous Integration and Delivery
+Terraform by HashiCorp - Enables you to safely and predictably create, change, and improve infrastructure
+Stream processing frameworks
+Apache Spark Streaming
+Kafka
+Kafka message queue
+Azure
+AWS
+Maven
+Gradle
+J2EE - Java 2 Platforms, Enterprise Edition
+JEE
+Apache
+Visual Basic
+IBM WebSphere (MQ) - IBM's AWS/Azure
+OracleSQL
+Oracle WebLogic Server
+Oracle
+TIBCO
+JBoss or other application runtimes and ESBs
+Micro Service Architecture
+Apache Webservice
+
+
+Databases/Storage Systems:
+---
+JavaScript
+Node.js
+Java
+XML
+XUL - XML User Interface Language 
+JSON
+Flask
+Django
+Apache
+REST
+Mongo DB
+RDBMS - Relational Database Management System
+-
+JDBC - Java DB Connect
+Azure
+AWS
+Cassandra
+Hadoop Eco System
+Hibernate
+Oracle
+Presto | Distributed SQL Query Engine for Big Data
+HDFS - High Density File Storage
+Apache Solr - Search Tool
+map reduce - Algorithms
+data mining
+Kibo
+PostgreSQL
+MS SQL Server
+
+
+Security:
+---
+Apache
+-
+
+
+Native:
+---
+C#
+-
+C
+Android
+UIKit
+Cocoa
+iOS
+Objective C
+Swift
+Eclipse
+Visual Studio
+ASP.NET MVC
+VB.NET
+.Net
+.NET Core
+.Net Framework
+WCF
+
+
+Other:
+---
+NPM
+Github
+Git
+Java Beans - Stupid Java Standard
+Agile
+Software Design
+SDLC - software development life cycle
+New Development
+-
+Kubernetes
+Docker
+Maven
+Bower
+Grunt
+Gulp
+Gradle
+A|B Test Design
+SonarQube
+Salt Testing Suite
+Chef
+Ansible
+Puppet - Automation Tech
+RSS/Atom Web Feeds
+Elastic - Elasticsearch, Kibana, Beats, Logstash - Elastic Stack for search & analytics
+Apache Solr - Search Tool
+XSLT - Transform XML to documents (HTML, PDF, etc)
+Apache Subversion - Apache's Git
+Big Data Analytics
+SOA - Service Oriented Architecture
+SOAP - Simple Object Access Protocol
