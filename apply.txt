@@ -1,3 +1,9 @@
+CS-6310	Software Architecture and Design	87103	Register
+CS-6340	Software Analysis and Test	88539	Register & Drop
+CS-6440	Intro to Health Informatics	87104	Waitlist
+
+
+
 Oindril Dutta | 3.204 | 2.93
 Learn in order: Go | Rust | Scala | Kotlin | C#
 --
@@ -436,7 +442,11 @@ bakabt.me ???
 
 
 
-
+8. CardinalHire
+9. DJI
+10. SOLE® Financial
+11. Vendition
+12. Joey @ Infosys
 
 
 
