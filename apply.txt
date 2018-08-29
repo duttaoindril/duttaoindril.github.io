@@ -1,8 +1,5 @@
-CS-6310	Software Architecture and Design	87103	Register
-CS-6340	Software Analysis and Test	88539	Register & Drop
-CS-6440	Intro to Health Informatics	87104	Waitlist
-
-
+Trunk
+4 Flitch, 4 Nails, 5 Simple Parts
 
 Oindril Dutta | 3.204 | 2.93
 Learn in order: Go | Rust | Scala | Kotlin | C#
@@ -12,9 +9,23 @@ Developed and maintained existing GitHub repository codebases and servers of int
 Fleshed them out and updated them to work with newer technologies and frameworks.
 A notable example of such an internal tool I worked on is a chatbot that queries the Retain API, and can show or modify data as handled by that API.
 
+~~~
+
+Implemented and deployed multi-dependent application tools suite to production for IBM’s DB2 Database Support Management Systems, allowing for easy integration with Salesforce over legacy Retain database systems.
+
+- Refactored entire 80k+ line application across 12 repositories to allow in-sync builds with each other, saving ~500 man-hours per month of development and build time
+- Created a continuous integration system utilizing Jenkins, with an entire testing suite, to automatically test, push and revert development and production builds
+- Fixed 2500+ runtime and compilation bugs involving Gradle, Beans, namespacing, DRY code, logic errors, and class, packaging, and method issues
+
+Used Java, JUnit, Jenkins, Git, Tomcat, Agile.
+
 --
 
 Summer Engineering Fellow/Intern at Aeris; I worked on data analysis, data stream decoding, and app creation in multiple platforms such as R, Shiny, Polymer, and Android. I built multiple internal tools to do the data analysis and decoding, culminating in a Polymer app that ingests real time IOT data from car sensors and then displays their analytics. This app was then used in a live demo at an investor showcase.
+
+~~~
+
+FILL IN
 
 --
 
@@ -23,6 +34,8 @@ Developed from scratch a Rails e-commerce site to advertise/sell SAT II Chem cla
 --
 
 Strong Full Stack Developer dipping toes into AI/ML/Data Handling
+
+Hey! I'm Oindril. I'm a strong Full Stack Developer (frontend + backend) highly interested in AI/ML and Data. I'm looking for a fulltime position where I can have a positive and long-lasting positive impact on the company, as I have done in my previous internships.
 
 http://odutta.me
 
@@ -68,7 +81,7 @@ I may not have all the skills I need to do this job, but I want to say that I lo
 
 My Projects
 
-eyeshot.fun (Global Grid)
+Eyeshot.fun (Global Grid)
 Yoga Master
 React.js chat App
 
